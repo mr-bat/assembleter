@@ -1,0 +1,60 @@
+.idea/
+# Created by https://www.gitignore.io/api/windows,modelsim
+# Edit at https://www.gitignore.io/?templates=windows,modelsim
+
+### ModelSim ###
+# ignore ModelSim generated files and directories (temp files and so on)
+[_@]*
+
+# ignore compilation output of ModelSim
+*.mti
+*.dat
+*.dbs
+*.psm
+*.bak
+*.cmp
+*.jpg
+*.html
+*.bsf
+
+# ignore simulation output of ModelSim
+wlf*
+*.wlf
+*.vstf
+*.ucdb
+cov*/
+transcript*
+sc_dpiheader.h
+vsim.dbg
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+*/db/*
+*/incremental_db/*
+*/output_files/*
+./*/*.qsf
+./*/*,qwf
+# End of https://www.gitignore.io/api/windows,modelsimdb/[D[D[D*/db/*
